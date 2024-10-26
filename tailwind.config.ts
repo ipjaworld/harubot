@@ -6,6 +6,7 @@ const config: Config = {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  important: '#__next',
   theme: {
     extend: {
       colors: {
@@ -13,6 +14,9 @@ const config: Config = {
         foreground: "var(--foreground)",
       },
     },
+  },
+  corePlugins: {
+    preflight: false,
   },
   plugins: [],
 };
