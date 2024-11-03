@@ -10,6 +10,7 @@ import {
 import { ScheduleService } from './schedule.service';
 import { CreateScheduleDto } from './dto/create-schedule.dto';
 import { JwtAuthGuard } from '../auth/guards/jwt-auth.guard';
+import { User } from 'src/user/entities/user.entity';
 
 @Controller('schedules')
 @UseGuards(JwtAuthGuard)

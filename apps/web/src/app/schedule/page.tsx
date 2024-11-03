@@ -28,7 +28,7 @@ export default function SchedulePage() {
     loadSchedules();
   }, [session]);
 
-  // const createSchedule = async (newSchedule: any) => {
+  // const createSchedule = async (newSchedule: ICreateScheduleDto) => {
   //   try {
   //     const created = await api.post('/api/schedules', newSchedule);
   //     setSchedules([...schedules, created]);
