@@ -8,6 +8,7 @@
       "declaration": true,
       "sourceMap": true,
       "baseUrl": ".",
+      "strictPropertyInitialization": false,
       "paths": {
         "@harubot/*": ["packages/*/src"]
       }
